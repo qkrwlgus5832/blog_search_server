@@ -3,9 +3,7 @@
  추가로, 키워드 별 검색 순위 api를 제공합니다
 
 - api 명세(swagger)
-```
 https://app.swaggerhub.com/apis/PJH5890/kakaobank_blog_api/1.0.0#/default/get_blog_list
-```
 
 ### 프로젝트 구조
 ```
