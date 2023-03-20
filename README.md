@@ -13,3 +13,7 @@ https://app.swaggerhub.com/apis/PJH5890/kakaobank_blog_api/1.0.0#/default/get_bl
 |- common
    |- http           
 ```
+
+### jar 위치
+/jar/kakaobank.jar 입니다!(jdk 17)
+

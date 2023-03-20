@@ -8,7 +8,7 @@ repositories {
 dependencies {
     implementation(project(":domain"))
     implementation(project(":client"))
-    compileOnly("com.h2database:h2")
+    implementation("com.h2database:h2")
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.9.2")
@@ -23,11 +23,11 @@ tasks.getByName<Test>("test") {
 
 tasks {
     bootJar {
-        enabled = false
+        enabled = true
     }
 
     jar {
-        enabled = true
+        enabled = false
     }
 }
 
