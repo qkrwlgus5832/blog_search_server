@@ -1,0 +1,36 @@
+kakao:
+  url: https://dapi.kakao.com
+  token: 568bd993086f0d885253e5d8a60b4527
+
+naver:
+  url: https://openapi.naver.com
+  client-id: 0O8rShmSY9vEjfjd7G2n
+  client-secret: RvqB8L32yt
+
+spring:
+  datasource:
+    url: jdbc:h2:~/test
+    driver-class-name: org.h2.Driver
+    username: sa
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+  output:
+    ansi:
+      enabled: always
+logging:
+  level:
+    org.hibernate.type: trace
+
+server:
+  tomcat:
+    threads:
+      max: 20
+      min-spare: 10
+    accept-count: 100
+

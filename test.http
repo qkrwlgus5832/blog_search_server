@@ -1,0 +1,5 @@
+GET http://localhost:8080/blog/list?searchKeyword=아린12&sortOrder=a&page=30&size=1
+
+###
+
+GET http://localhost:8080/blog/list/top10/keyword
